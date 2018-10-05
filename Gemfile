@@ -9,17 +9,19 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
+gem 'jquery-turbolinks'
 gem 'jbuilder', '~> 2.5'
-# gem 'redis', '~> 4.0'
-# gem 'bcrypt', '~> 3.1.7'
-# gem 'mini_magick', '~> 4.8'
-# gem 'capistrano-rails', group: :development
 gem 'bootstrap-sass'
 gem 'jquery-rails'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'devise', '~> 4.5.0'
 gem 'paperclip', '~> 3.0'
 gem 'aws-sdk', '< 2.0'
+gem 'masonry-rails', '~> 0.2.0'
+# gem 'redis', '~> 4.0'
+# gem 'bcrypt', '~> 3.1.7'
+# gem 'mini_magick', '~> 4.8'
+# gem 'capistrano-rails', group: :development
 
 group :development, :test do
      gem 'sqlite3'
