@@ -18,6 +18,7 @@ gem 'bootstrap-sass'
 gem 'jquery-rails'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'devise', '~> 4.5.0'
+gem 'paperclip', '~> 3.0'
 
 group :development, :test do
      gem 'sqlite3'
